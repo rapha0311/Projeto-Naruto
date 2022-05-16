@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/Sasuke-com-a-Espada-na-mão-em-png-614x1024.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Sasuke</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="sasuke" data-name="Sasuke">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Sasuke.jpg" alt="Personagem Sasuke">
+                </li>
+
+                <li class="personagem" id="shikamaru" data-name="Shikamaru">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Shikamaru.jpg" alt="Personagem Shikamaru">
+                </li>
+
+                <li class="personagem" id="hinata" data-name="Hinata">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Hinata.jpg" alt="Personagem Hinata">
+                </li>
+
+                <li class="personagem" id="itachi" data-name="Itachi">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Itachi.jpg" alt="Personagem Itachi">
+                </li>
+
+                <li class="personagem" id="jiraya" data-name="Jiraya">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Jiraya.jpg" alt="Personagem Jiraya">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="nagato" data-name="Nagato">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/Nagato.jpg" alt="Personagem Nagato">
+                </li>
+
+                <li class="personagem" id="naruto" data-name="Naruto">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Naruto.jpg" alt="Personagem Naruto">
+                </li>
+
+                <li class="personagem" id="orochimaru" data-name="Orochimaru">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Orochimaru.jpg" alt="Personagem Orochimaru">
+                </li>
+
+                <li class="personagem" id="obito" data-name="Obito">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Obito.jpg" alt="Personagem Obito">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Nagato.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Nagato</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
