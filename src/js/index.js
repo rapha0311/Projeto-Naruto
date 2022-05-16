@@ -19,7 +19,7 @@ personagens.forEach((personagem) => {
 
     const idSelecionado = personagem.attributes.id.value;
 
-    if(idSelecionado === 'nagato') return;
+    if(idSelecionado === 'sasuke') return;
 
     /* 
         OBJETIVO 1 - quando passar o mouse em cima do personagem temos que:
